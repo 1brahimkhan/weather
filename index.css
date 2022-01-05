@@ -1,0 +1,176 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.bg_card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  margin: 30px auto;
+  width: 90%;
+  height: 90vh;
+  border-radius: 10px;
+}
+
+.bg_card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+  padding: 50px 16px;
+}
+
+.left {
+  float: left;
+}
+.left h4{
+  padding-top: 8px;
+  padding-right: 10px;
+  font-size: large;
+}
+.right {
+  float: right;
+  height: 30vh;
+  width: 70%;
+}
+.chart{
+  height: 30vh;
+  width: 90%;
+  margin: 50px auto;
+}
+.temp{
+  float: left;
+  font-size: x-large;
+  font-weight: lighter;
+  margin-left: 50px;
+}
+
+.weather{
+  margin: 20% 10%;
+}
+.degree{
+  margin: 10%;
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.left .time{
+  margin-top: 50px;
+  font-size: large;
+  color: gray;
+  letter-spacing: 3px;
+}
+.weather_name{
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+}
+.weather_description{
+  margin: 10%;
+  font-size: 20px;
+}
+.weather_description h4{
+  font-weight: lighter;
+  color: gray;
+}
+
+.img-fluid{
+  width: 40%;
+  height: 20%;
+  float: left;
+}
+
+.row img{
+  width:35%;
+  align: center;
+}
+.row{
+  padding: 30px;
+  width: 250px;
+}
+/*
+
+.card {
+  margin: 40px auto;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 650px;
+  width: 90%;
+  border-radius: 50%;
+  background-color: #ffffff;
+  box-shadow: 10px 0 50px rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+}
+
+.weatherInfo{
+  display: flex;
+  margin: 70px auto;
+  color: gray;
+}
+
+body .card:hover {
+  filter: blur(0);
+  transform: scale(1);
+  opactiy: 1;
+  transition: 0.9s;
+}
+
+.cardSearch{
+  position: absolute;
+  left: 0;
+  top: 0;
+  margin: 50px 0 0 50px;
+  display: flex;
+}
+#searchBox{
+  width: 50%;
+  height: 30%;
+}
+.city {
+  font-size: 15px;
+  font-weight: 600;
+  margin-top: 10px;
+  text-transform: uppercase;
+  letter-spacing: 15px;
+  color: #ffffff;
+  mix-blend-mode: difference;
+}
+
+p {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  margin: 0 20px 60px 20px;
+  font-size: 18px;
+  color: #ffffff;
+  mix-blend-mode: difference;
+}
+
+
+.content a {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  margin: 0 20px 20px 0;
+  cursor: pointer;
+  background-color: #000000;
+  color: #ffffff;
+  font-size: 28px;
+  padding: 5px 10px 5px 10px;
+  border-radius: 30px;
+  box-shadow: 10px 0 50px rgba(0, 0, 0, 0.5);
+}
+ */
